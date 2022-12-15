@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+}
+
+.logo {
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#slogan {
+    margin: 0;
+    padding-top: 7px;
+    margin-bottom: 3px;
+}
+
+#container-searchbox {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(212, 212, 212);
+}
+
+input#searchbox {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.container {
+    display: flex;
+}
+
+.extras-container {
+    background-color: rgb(130, 218, 218);
+    margin: 3px;
+    text-align: center;
+    height: 80px;
+}
+
+#special-searches {
+    width: 40%;
+    box-sizing: border-box;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#google-s {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#archive {
+    width: 40%;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+}
+
